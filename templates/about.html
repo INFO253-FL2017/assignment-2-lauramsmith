@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <title>Assignment 2 - INFO 253 Web Architecture</title>
+    <meta charset="utf-8">
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/skeleton.css')}}">
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.css')}}">
+  </head>
+	<body>
+		<header>
+      <div class="row" style="padding-top:15px;">
+            <div class="one-third column">
+              <h5><a href="/index">HOME</a></h5>
+            </div>
+            <div class="one-third column">
+              <h5><a href="/about">ABOUT US</a></h5>
+            </div>
+            <div class="one-third column">
+              <h5><a href="/contact">CONTACT US</a></h5>
+            </div>
+        </div>
+    </header>
+		<div class="container" id = "about_cont">
+    		<div class="row" style="padding-top: 100px;">
+       				<h1>About Us</h1>
+        			<div class="row">
+                  <img class="img" src="{{ url_for('static', filename='selfie.png')}}" alt="oops picture should be here"/>
+              </div>
+              <div style="padding-bottom:100px">
+                <h4>Hello!</h4>
+                <h4 style="line-height: 5px; padding-bottom: 20px;">Thanks so much for stopping by.</h4>
+                <p>My name's Laura, and I'd love to get to know you. But first, here's a little about me.</p>
+                <p>I'm a second-year from Southern California suburbia, and I study Computer Science at UC Berkeley.</p>
+                <p>Some of my passions include watching the Disneyland fireworks with a pretzel in hand,</p>
+                <p>sharing a good meal with my friends and family,</p>
+                <p>and, most importantly, always learning.</p>
+              </div>
+    		</div>
+  		</div>
+		<footer>
+      <div class="row" style="padding-top:15px;">
+            <div class="one-third column">
+              <h5><a href="/index">HOME</a></h5>
+            </div>
+            <div class="one-third column">
+              <h5><a href="/about">ABOUT US</a></h5>
+            </div>
+            <div class="one-third column">
+              <h5><a href="/contact">CONTACT US</a></h5>
+            </div>
+        </div>
+    </footer>
+	</body>
+</html>
+
